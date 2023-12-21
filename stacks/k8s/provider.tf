@@ -1,3 +1,3 @@
 provider "kubernetes" {
-  config_path    = "vke-dev-kube-config.yaml"
+  config_path    = "vke-dev-kubeconfig.yaml"
 }
