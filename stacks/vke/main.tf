@@ -1,7 +1,7 @@
 resource "vultr_kubernetes" "vke-dev" {
     region  = var.region
     label   = "vke-dev"
-    version = "v1.28.3+2"
+    version = "v1.30.0+1"
 
     node_pools {
         node_quantity = 1
